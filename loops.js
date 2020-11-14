@@ -28,7 +28,9 @@ for (;fruit[i];) {
    console.log(i)
  }
 
- var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
- for(var i = 0; i < fruit.length; i ++){
-        console.log(String(fruit));
- }
+
+    var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
+         for(var i = 0; i < fruit.length; i = i + 2){
+              console.log(Array(fruit[i]))
+         }
+ 
