@@ -67,6 +67,7 @@ for (;fruit[i];) {
     return name;
   }
   console.log(nameArr(people.length))
+
   
   function occupationArr(max){
     var occupation = [];
@@ -76,3 +77,45 @@ for (;fruit[i];) {
     return occupation;
   }
   console.log(occupationArr(people.length))
+
+  for(var i = 0; i < nameArr; i = i + 2){
+    console.log(String(nameArr(people[i].name)))
+  }
+  for(var i = 0; i < occupationArr; i = i + 2){
+    console.log(String(occupationArr(people[i].occupation)))
+  }
+  /// gold
+
+  
+  var numbers = [ "0", "0","0",]
+ for(var i = 0; i < numbers.length; i++){
+        console.log(Array("[[" + numbers + "],"))
+         }
+
+  var number1 = {
+           num: "[[0, 0, 0 ],",
+           num1: "[1, 1, 1],",
+           num2: "[2, 2, 2]]",
+           }
+         console.log(number1.num)
+        console.log(number1.num1)
+        console.log(number1.num2)
+         
+        
+         var number2 = {
+          num: "[[0, 1, 2],",
+          num1: "[0, 1, 2],",
+          num2: "[0, 1, 2]]",
+          }
+       console.log(number2.num)
+       console.log(number2.num1)
+       console.log(number2.num2)
+
+  var grid = {
+    grid1: "[['X', ...],",
+    grid2: "['X', ...],",
+    grid3: "['X', ...], ...]",
+  }     
+  console.log(grid.grid1)  
+  console.log(grid.grid2)  
+  console.log(grid.grid3)        
