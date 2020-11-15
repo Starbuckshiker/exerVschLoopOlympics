@@ -55,5 +55,24 @@ for (;fruit[i];) {
   ] 
    
   for(var i = 0; i < people.length; i++){
-    console.dir(people.name.)
+    console.log(people[i].name)
   }
+ 
+
+  function nameArr(max){
+    var name = [];
+    for(var i = 0; i < people.length; i++){
+      name[i] = people[i].name;
+    }
+    return name;
+  }
+  console.log(nameArr(people.length))
+  
+  function occupationArr(max){
+    var occupation = [];
+    for(var i = 0; i < people.length; i++){
+      occupation[i] = people[i].occupation;
+    }
+    return occupation;
+  }
+  console.log(occupationArr(people.length))
