@@ -84,6 +84,8 @@ for (;fruit[i];) {
   for(var i = 0; i < occupationArr; i = i + 2){
     console.log(String(occupationArr(people[i].occupation)))
   }
+
+  
   /// gold
 
   
