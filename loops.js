@@ -94,6 +94,27 @@ for (;fruit[i];) {
         console.log(Array("[[" + numbers + "],"))
          }
 
+         function* range(n) {
+          for (let i = 0; i < n; i++) yield i;
+         }
+         
+         const arrAy = [];
+         var i = 1;
+         for (let i of range(3)) {
+           let row = [];
+           for (let j of range(3)) row.push('0');
+           arrAy.push(row);
+           }
+           console.log(arrAy)
+
+           const arrAy1 = [];
+           var i = 1;
+           for (let i of range(3)) {
+             let row = [];
+             for (let j of range(3)) row.push('1');
+             arrAy.push(row);
+             }
+             console.log(arrAy1)
   var number1 = {
            num: "[[0, 0, 0 ],",
            num1: "[1, 1, 1],",
